@@ -13,6 +13,7 @@
     --gray-400:#94a3b8;
     --gray-200: #e2e8f0;
     --purple: #7c3aed;
+    --light-purple: #9f67ff;
     --white: #fff;
 
 }
@@ -52,8 +53,21 @@ main{
     font-size: 1.5625rem;
 }
 
-.descricao p {
-    font-size: 0.8125rem;
+.login button:hover{
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+.descricao >p {
+
     color: var(--gray-600);
    
 }
@@ -167,6 +181,8 @@ color: var(--gray-800);
         justify-content: flex-start;
         margin: 2.5rem 7rem 7rem;
         height: fit-content;
+        align-self: flex-start;
+        
     }
 
 header img{
@@ -182,6 +198,9 @@ main {
 
 .conteudo{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -195,5 +214,21 @@ main {
     display: block;
     width: 100%;
 }
+
+
+.descricao h1 {
+    font-size: 2.25rem;
+}
+
+
+.descricao p {
+
+font-size: 1rem;
+
+}
+
+
+
+
 
 }
