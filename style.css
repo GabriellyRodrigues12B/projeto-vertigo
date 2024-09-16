@@ -175,6 +175,8 @@ color: var(--gray-800);
     body{
 
         display: flex;
+        height: 100vh;
+       
     }
     header {
         background: none;
@@ -214,6 +216,19 @@ main {
     display: block;
     width: 100%;
 }
+
+
+.bg-desktop img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 
 
 .descricao h1 {
